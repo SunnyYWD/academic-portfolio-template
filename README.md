@@ -4,6 +4,8 @@ A clean, responsive, bilingual (English / 中文) personal website template for 
 
 [中文文档](README.zh-CN.md)
 
+![Generic academic portfolio template preview](docs/preview.jpg)
+
 > All names, institutions, publications, positions, and projects shown in the starter site are fictional examples. The included avatar is a generic vector placeholder.
 
 ## Features
