@@ -58,3 +58,5 @@ Vite 会根据 GitHub Actions 的仓库名称自动配置路径；用户名主�
 ## 许可
 
 本项目使用 [MIT License](LICENSE)。
+
+欢迎参与改进；提交方式和隐私要求见 [CONTRIBUTING.md](CONTRIBUTING.md)。

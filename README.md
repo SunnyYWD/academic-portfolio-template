@@ -99,3 +99,5 @@ The starter site is crawlable (`public/robots.txt` allows indexing). Search engi
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+Contributions are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md) for the workflow and privacy guidelines.
