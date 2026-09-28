@@ -44,7 +44,7 @@ npm run preview
 
 ## 部署到 GitHub Pages
 
-1. 在 GitHub 点击 **Use this template** 创建自己的仓库；如果仓库尚未标记为模板，也可以克隆或 fork。
+1. 在 GitHub 点击 **Use this template** 创建自己的仓库。
 2. 在新仓库的 **Settings → Pages** 中将发布来源设为 **GitHub Actions**。
 3. 修改内容后推送到 `main`。仓库中的工作流会自动构建并部署。
 4. 等待 **Actions → Deploy portfolio to GitHub Pages** 成功。通常访问地址为 `https://<用户名>.github.io/<仓库名>/`。

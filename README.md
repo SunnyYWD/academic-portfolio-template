@@ -15,7 +15,7 @@ A clean, responsive, bilingual (English / 中文) personal website template for 
 - Responsive layout with a profile card and clearly separated sections.
 - Optional sections: set a section's array to `[]` to hide it.
 - GitHub Pages workflow included. The Vite base path automatically follows the repository name, including forks and repositories created from this template.
-- No analytics, trackers, fonts, image CDNs, or runtime API calls.
+- No analytics, trackers, externally loaded fonts, image CDNs, or runtime API calls.
 
 ## Quick start
 
@@ -44,7 +44,7 @@ Most edits happen in [src/content.js](src/content.js). Replace the fictional ent
 | Avatar | Replace `public/avatar.svg` and update `site.avatar` if the filename changes |
 | Education, publications, news, experience, projects | The corresponding arrays in each language block |
 | Default language | `site.defaultLanguage` (`"en"` or `"zh"`) |
-| Browser description and social preview text | `index.html` |
+| Browser title and search description | `index.html` |
 | Colors, spacing, typography | Tailwind classes in `src/Portfolio.jsx` and `src/styles.css` |
 
 Each section is data driven. For example, add a publication like this in each language block:
@@ -69,7 +69,7 @@ Before publishing, replace the sample copy, remove entries you do not need, add 
 
 ## Publish with GitHub Pages
 
-1. Click **Use this template** on GitHub and create a new repository. If this repository is not marked as a template yet, clone or fork it instead.
+1. Click **Use this template** on GitHub and create a new repository.
 2. In your new repository, open **Settings → Pages** and choose **GitHub Actions** as the build and deployment source.
 3. Edit `src/content.js`, `public/avatar.svg`, and `index.html`; commit and push to `main`.
 4. Wait for **Actions → Deploy portfolio to GitHub Pages** to succeed. The public URL will normally be `https://<username>.github.io/<repository>/`.
