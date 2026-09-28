@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { margin: 0; }
+
+.font-title { font-family: Georgia, "Times New Roman", "Songti SC", serif; }
+.font-body { font-family: Inter, "PingFang SC", ui-sans-serif, system-ui, sans-serif; }
